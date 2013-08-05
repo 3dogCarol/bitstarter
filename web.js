@@ -2,7 +2,7 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 app.use(express.logger());
-var buf=fs.readFileSync("index.html");
+//var buf=fs.readFileSync("index.html");
 
 //console.log(buf);
 //console.log(buf.toString());
